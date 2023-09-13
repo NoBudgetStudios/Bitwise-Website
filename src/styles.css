@@ -1,0 +1,134 @@
+/* Reset default margin and padding for all elements */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+    color: #FFF; /* Set text color to white */
+}
+
+/* Apply background color and center the header */
+header {
+    background-color: #000; /* Set background color to black */
+    text-align: center;
+    padding: 20px;
+	
+	background-image: url('Images/New/Artwork (11).jpg'); /* Replace 'background.jpg' with your image file's path */
+    background-size: cover; /* Cover the entire viewport */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-attachment: fixed; /* Fixed background */
+    background-position: center; /* Center the image horizontally and vertically */
+}
+
+/* Set the background image for the body */
+body {
+    background-image: url('Images/New/Artwork (11).jpg'); /* Replace 'background.jpg' with your image file's path */
+    background-size: cover; /* Cover the entire viewport */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-attachment: fixed; /* Fixed background */
+    background-position: center; /* Center the image horizontally and vertically */
+}
+
+/* Style the header text */
+h1 {
+    color: #FFF; /* Set text color to white */
+    font-size: 36px;
+}
+
+/* Style the navigation menu */
+nav ul {
+	
+    font-size: 24px;
+    background-color: rgba(0, 0, 0, 0.75); /* Set background color to semi-transparent black (75% opacity) */
+    list-style: none;
+    text-align: left; /* Align the text to the left */
+	padding: 10px 0; /* Increase the top and bottom padding to make it thicker */
+}
+
+nav li {
+    display: inline;
+    margin: 0 30px;
+}
+
+nav a {
+    color: #FFF; /* Set text color to white */
+    text-decoration: none;
+}
+
+/* Style the sections */
+section {
+    padding: 50px;
+    margin: 50px;
+    border: 1px solid #FFF; /* Set border color to white */
+	background-color: rgba(0, 0, 0, 0.75); /* Set background color to semi-transparent black (75% opacity) */
+    
+}
+
+/* Style the section headings */
+h2 {
+	text-align: left; /* Align the text to the left */
+    color: #FFF; /* Set text color to white */
+    font-size: 28px;
+}
+
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+	margin-bottom: 10px;
+    font-family: 'Manrope', sans-serif; /* Use Manrope as the primary font */
+    color: #FFF;
+}
+
+#image-gallery {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.gallery {
+    max-width: 800px; /* Set a maximum width for the gallery */
+    margin: 0 auto; /* Center-align the gallery horizontally */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery img {
+    margin: 10px;
+    max-width: 250px;
+    height: auto;
+}
+
+
+/* Style the video container */
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh; /* Adjust the height as needed */
+    margin-top: 20px; /* Add space between the video and the list */
+}
+
+/* Style the video */
+video {
+    max-width: 100%; /* Ensure the video is responsive */
+    display: block; /* Remove any extra spacing around the video */
+    margin: 0 auto; /* Center the video horizontally */
+    margin-top: 20px; /* Add space between the video and the list */
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    cursor: pointer;
+}
+
+.overlay img {
+    max-width: 90%;
+    max-height: 90%;
+}
