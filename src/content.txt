@@ -1,3 +1,0 @@
-Header
-Section1: This is the description for Section 1
-Section2: This is the description for Section 2
