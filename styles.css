@@ -30,23 +30,39 @@ body {
 }
 
 h1 {
-    color: #FFF; /* Set text color to white */
+    color: #FFF;
     font-size: 36px;
 }
 
+/* Mobile-first approach: Start with mobile-friendly styles */
 nav ul {
-	
-    font-size: 30px;
+    font-size: 25px;
     background-color: rgba(0, 0, 0, 0.75);
     list-style: none;
-    text-align: center;
+    text-align: left;
 	padding: 15px 10px;
-	margin: 20px 0;
+    margin: 0px 0px;
 }
 
 nav li {
-    display: inline;
-    margin: 0 15px;
+    display: block;
+    margin: 10px 10px;
+}
+
+/* Add media query for larger screens (e.g., tablets and desktops) */
+@media (min-width: 768px) {
+    nav ul {
+		
+		text-align: center;
+        font-size: 25px;
+        padding: 15px 10px;
+        margin: 20px 0;
+    }
+
+    nav li {
+        display: inline; /* Restore display style for larger screens */
+        margin: 0 15px; /* Restore margin for larger screens */
+    }
 }
 
 nav a {
@@ -94,7 +110,7 @@ li {
 }
 
 .gallery {
-    max-width: 800px;
+    max-width: 1200px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -102,10 +118,12 @@ li {
 }
 
 .gallery img {
-    margin: 10px;
-    max-width: 300px;
+    margin: 10px; /* Add margin to create space between images */
+    max-width: 30%; /* Set maximum width to 100% of the parent container (section) */
     height: auto;
+    box-sizing: border-box; /* Include margin in the calculation of image width */
 }
+
 
 
 .video-container {
