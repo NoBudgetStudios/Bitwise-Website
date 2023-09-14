@@ -2,77 +2,96 @@
 <html>
 <head>
     <title>Bitwise Rules</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 </head>
 <body>
     <header>
         <h1>Rules</h1>
     </header>
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
-		<nav>
-			<ul>
-				<li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
-				<li><a href="rules.html"><i class="fas fa-book"></i> Rules</a></li>
-				<li><a href="gallery.html"><i class="fas fa-camera"></i> Gallery</a></li>
-				<li><a href="about.html"><i class="fas fa-info-circle"></i> About</a></li>
-				<li><a href="communication.html"><i class="fas fa-comments"></i> Communication</a></li>
-			</ul>
-		</nav>
+    <nav>
+        <!-- Mobile-friendly navigation 
+        <div id="mobile-nav-toggle">
+            <i class="fas fa-bars"></i>
+        </div>-->
+        <ul>
+            <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="rules.html"><i class="fas fa-book"></i> Rules</a></li>
+            <li><a href="gallery.html"><i class="fas fa-camera"></i> Gallery</a></li>
+            <li><a href="about.html"><i class="fas fa-info-circle"></i> About</a></li>
+            <li><a href="communication.html"><i class="fas fa-comments"></i> Communication</a></li>
+        </ul>
+    </nav>
     <section id="howToWin">
-        <h2>How to win:</h2>
-        <p id="howToWin-description">
-			<div>
-				A player who completes the 4Bit sequences, 
-				indicated by one of their Black 4Bit Cards, 
-				scores a Bit Point, and turns the corresponding White 4Bit Card face down.
-			</div>
-			<div>A player wins by scoring:</div>
-			<div>
-			2 Players,
-			4 Bit Points
-			</div>
-			<div>
-			3 Players,
-			3 Bit Points
-			</div>
-			<div>
-			4 Player,
-			2 Bit Points
-			</div>
+        <h2>How to Win:</h2>
+		<p id="howToWin-description">
+			To win a Bitwise game, a player must complete the 4Bit sequences, indicated by one of their Black 4Bit Cards, to score a Bit Point and turn the corresponding White 4Bit Card face down. A player wins based on the following criteria:
+            <table>
+            <tr>
+                <td>2 Players</td>
+                <td>Score 4 Bit Points</td>
+            </tr>
+            <tr>
+                <td>3 Players</td>
+                <td>Score 3 Bit Points</td>
+            </tr>
+            <tr>
+                <td>4 Players</td>
+                <td>Score 2 Bit Points</td>
+            </tr>
+        </table>
 		</p>
-	</section>
+    </section>
     <section id="setup">
         <h2>Set Up:</h2>
         <p id="setup-description">
-			<div>
-			Every player takes a Tutorial Card face up in front of them. 
-			Shuffle the White 4Bit Cards deck and place it face down on the upper left corner of the 5x5 Bit Grid. 
-			Draw 8 cards and place them face up completing the first row and the first column of the grid. 
-			Then find the corresponding 4Bit Cards from the Black 4Bit Deck and form a face down pile with them 
-			(Black 4Bit Deck will not be used again in the setup). Then shuffle the face down pile and deal to each Player:
-			</div>
-			
-			<div>2 Players, 4 Black 4Bit Cards</div>
-			<div>3 Players, 3 Black 4Bit Cards</div>
-			<div>4 Player, 2 Black 4Bit Cards</div>
-
-
-			Then, shuffle Bit cards, Gate cards and Special Cards forming the Deck. Deal 8 cards to each player clockwise from the Deck. The player who looked at any kind of screen most recently, starts first.
-</p>
+            To set up the game, follow these steps:
+            <ol>
+                <li>Every player takes a Tutorial Card face up in front of them.</li>
+                <li>Shuffle the White 4Bit Cards deck and place it face down on the upper left corner of the 5x5 Bit Grid.</li>
+                <li>Draw 8 cards and place them face up to complete the first row and the first column of the grid.</li>
+                <li>Find the corresponding 4Bit Cards from the Black 4Bit Deck and form a face-down pile with them (the Black 4Bit Deck will not be used again in the setup).</li>
+                <li>Shuffle the face-down pile and deal to each player:</li>
+				<table>
+				<tr>
+					<td>2 Players</td>
+					<td>4 Black 4Bit Cards</td>
+				</tr>
+				<tr>
+					<td>3 Players</td>
+					<td>3 Black 4Bit Cards</td>
+				</tr>
+				<tr>
+					<td>4 Players</td>
+					<td>4 Black 4Bit Cards</td>
+				</tr>
+				</table>
+                <li>Then, shuffle Bit cards, Gate cards, and Special Cards to form the Deck.</li>
+                <li>Deal 8 cards to each player clockwise from the Deck.</li>
+                <li>The player who looked at any kind of screen most recently starts first.</li>
+            </ol>
+        </p>
     </section>
     <section id="inATurn">
         <h2>In a Turn:</h2>
         <p id="inATurn-description">
-			A player, in their turn, first draws a card from the Bit Deck. 
-			Then they can play up to 1 card of each Type (Bit, Special, Gate) in any order, 
-			unless a played card states otherwise. If a player does not play any card, 
-			they draw a card from the Special Deck. Eitherway, right after that, they pass 
-			their turn to the next player on the left (clockwise).
-		</p>
+            During their turn, a player should:
+            <ol>
+                <li>Draw a card from the Deck.</li>
+                <li>Play up to 1 card of each Type (Bit, Special, Gate) in any order unless a played card states otherwise.</li>
+                <li>If a player does not play any cards, they must draw another card from the Deck.</li>
+                <li>Afterward, pass their turn to the next player on the left (clockwise).</li>
+            </ol>
+        </p>
     </section>
-	
-	
-
+    <!-- Add more sections as needed -->
 </body>
+
+<video loop muted autoplay id="background-video">
+	<source src="Videos/backgroundVideo.mp4" type="video/mp4">
+	Your browser does not support the video tag.
+</video>
+
 </html>
