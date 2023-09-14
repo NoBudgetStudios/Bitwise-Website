@@ -55,7 +55,9 @@ nav a {
 
 section {
     padding: 50px;
-    margin: 150px;
+    margin: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
     border: 1px solid #FFF; 
 	background-color: rgba(0, 0, 0, 0.75);
     border-radius: 20px;
@@ -150,10 +152,10 @@ video {
 }
 
 table {
-    width: 100%;
+    width: 30%;
     border-collapse: collapse;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 th {
