@@ -85,6 +85,19 @@ nav a {
 
 section {
 	animation: fadeOut 2s ease-in-out;
+    padding: 20px;
+    margin: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid #FFF; 
+	background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 20px;
+    text-align: left;
+}
+
+@media (min-width: 768px) {
+	section {
+	animation: fadeOut 2s ease-in-out;
     padding: 50px;
     margin: 50px;
     margin-left: 50px;
@@ -93,6 +106,7 @@ section {
 	background-color: rgba(0, 0, 0, 0.75);
     border-radius: 20px;
     text-align: left;
+	}
 }
 
 h2 {
@@ -123,26 +137,26 @@ li {
   padding-bottom: 10px;
 }
 
-/* Add this CSS to style the logo */
 .logo {
     display: block;
-    text-align: center; /* Center the logo horizontally */
-    margin-top: 0px; /* Adjust the top margin as needed */
+    text-align: center;
+    margin-top: 0px;
 	
 }
 
 .logo img {
-    max-width: 75%; /* Ensure the logo doesn't exceed its container's width */
-    height: auto; /* Maintain the aspect ratio of the logo */
+    max-width: 50%;
+    height: auto;
 	animation: fadeOut 0.5s ease-in-out;
 }
 
 .gallery {
     max-width: 1200px;
-    margin: 0 0;
     display: flex;
     flex-wrap: wrap;
+	margin: 0 auto;
     justify-content: center;
+    text-align: center;
 	
 }
 
@@ -151,6 +165,8 @@ li {
     max-width: 75%;
     height: auto;
     box-sizing: border-box;
+    justify-content: center;
+    text-align: center;
 }
 
 /* Add media query for larger screens (e.g., tablets and desktops) */
@@ -160,6 +176,7 @@ li {
     max-width: 20%;
     height: auto;
     box-sizing: border-box;
+    justify-content: center;
 	}
 }
 

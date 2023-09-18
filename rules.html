@@ -24,21 +24,8 @@
     <section id="howToWin">
         <h2>How to Win:</h2>
 		<p id="howToWin-description">
-			To win a Bitwise game, a player must complete the 4Bit sequences, indicated by one of their Black 4Bit Cards, to score a Bit Point and turn the corresponding White 4Bit Card face down. A player wins based on the following criteria:
-            <table>
-            <tr>
-                <td>2 Players</td>
-                <td>Score 4 Bit Points</td>
-            </tr>
-            <tr>
-                <td>3 Players</td>
-                <td>Score 3 Bit Points</td>
-            </tr>
-            <tr>
-                <td>4 Players</td>
-                <td>Score 2 Bit Points</td>
-            </tr>
-        </table>
+			A player who completes a 4Bit sequence scores 1 Bit Point. A player who completes the 4Bit sequences, indicated by a Black 4Bit Card they own, scores 4 Bit Points. In any case, the White 4Bit Cards that have been completed are flipped face down.
+			A player wins by scoring 4 Bit Points.
 		</p>
     </section>
     <section id="setup">
@@ -46,42 +33,78 @@
         <p id="setup-description">
             To set up the game, follow these steps:
             <ol>
-                <li>Every player takes a Tutorial Card face up in front of them.</li>
-                <li>Shuffle the White 4Bit Cards deck and place it face down on the upper left corner of the 5x5 Bit Grid.</li>
-                <li>Draw 8 cards and place them face up to complete the first row and the first column of the grid.</li>
-                <li>Find the corresponding 4Bit Cards from the Black 4Bit Deck and form a face-down pile with them (the Black 4Bit Deck will not be used again in the setup).</li>
-                <li>Shuffle the face-down pile and deal to each player:</li>
-				<table>
-				<tr>
-					<td>2 Players</td>
-					<td>4 Black 4Bit Cards</td>
-				</tr>
-				<tr>
-					<td>3 Players</td>
-					<td>3 Black 4Bit Cards</td>
-				</tr>
-				<tr>
-					<td>4 Players</td>
-					<td>4 Black 4Bit Cards</td>
-				</tr>
-				</table>
-                <li>Then, shuffle Bit cards, Gate cards, and Special Cards to form the Deck.</li>
-                <li>Deal 8 cards to each player clockwise from the Deck.</li>
-                <li>The player who looked at any kind of screen most recently starts first.</li>
+				<li>Every player takes a Tutorial Card face up in front of them. 
+				<li>Shuffle the White 4Bit Cards deck and place it face down on the upper left corner of the 5x5 Bit Grid.</li>
+				<li>Draw 8 cards and place them face up completing the first row and the first column of the grid.</li>
+				<li>Then search the 4Bit Cards from the Black 4Bit Deck that corresponds with the face up White 4Bit Cards and form a face down pile with them (Black 4Bit Deck will not be used again in the setup).</li>
+				<li>Afterward, shuffle the face-down pile and distribute one 4Bit Black Card to each player. This card serves as the target number for each player and can only be visible to its owner.</li>
+				<li>Finally, shuffle Bit cards, Gate cards and Special Cards together, forming the Deck. Deal 4 cards to each player clockwise from the Deck.</li>
+				<li>The player who has most recently viewed any type of turned on screen starts the game.</li>
             </ol>
         </p>
     </section>
     <section id="inATurn">
         <h2>In a Turn:</h2>
         <p id="inATurn-description">
-            During their turn, a player should:
+            A player, in their turn:
             <ol>
-                <li>Draw a card from the Deck.</li>
-                <li>Play up to 1 card of each Type (Bit, Special, Gate) in any order unless a played card states otherwise.</li>
-                <li>If a player does not play any cards, they must draw another card from the Deck.</li>
-                <li>Afterward, pass their turn to the next player on the left (clockwise).</li>
+                <li>Draws a card from the Deck.</li>
+                <li>Plays up to 1 card of each Type (Bit, Special, Gate) in any order, unless a played card states otherwise.</li>
+                <li>If a player does not play any card, they draw another card from the Deck.</li>
+                <li>Eitherway, right after that, they pass their turn to the next player on the left (clockwise).</li>
             </ol>
         </p>
+    </section>
+	<section id="exampleTurn">
+        <h2>Example of a Turn:</h2>
+        <p id="exampleTurn-description">
+			<ol>
+				<li>Player A plays an “1 Bit Card” by placing it in an empty Bit Slot.</li>
+				<li>Then the Player A plays a “NOT Gate Card” to replace a “0 Bit Card” on the Bit Grid with another
+				“1 Bit Card” to fill a 4Bit Card row and score 1 Point, by flipping the 4Bit Card face down.</li>
+				<li>Finally, the Player A plays an “Encryption Special Card” that protects him from 
+				other players’ Special Cards until the end of his next turn.</li>
+			</ol>
+        </p>
+    </section>
+	<section id="cardsTypes">
+        <h2>Cards Types:</h2>
+        <p id="cardsTypes-description">
+			<ul>
+				<li><h3>Bit Cards:</h3>
+				The most basic cards in the game! With these cards a player can fill the empty Bit Slots in the Bit Grid in order to complete 4Bit Sequences.</li>
+
+				<li><h3>Tutorial Card:</h3>
+				Each player holds a Tutorial Card during the game. This card can be used as an aid in converting numbers from decimal to binary.</li>
+
+				<li><h3>Gate Card:</h3>
+				These cards represent transformations of Bit Cards! With these cards a player can combine Bit Cards 
+				(by discarding them) from the Bit Grid or their hand in order to play a new Bit Card from their hand in any slot of the Bit Grid.</li>
+
+				<li><h3>Special Cards:</h3>
+				These cards have unique special abilities and can be a game changer! Playing one of these cards means that the player who played it must do exactly what the card text says.</li>
+
+				<li><h3>4Bit Cards:</h3>
+				These cards are the target cards of the Bit Grid. Every player in the game tries to fill the gaps in the Bit Grid in order to complete one of the target cards 4Bit sequence correctly.</li>
+			</ul>
+		</p>
+    </section>
+	<section id="faqs">
+        <h2>FAQs:</h2>
+        <p id="faqs-description">
+			<h3>What happens when a deck runs out of cards?</h3>
+			Nothing! Shuffle the discarded cards and continue.
+			<h3>Up to how many cards can a player have in their hand?</h3>
+			There is no hand limit.
+
+			<h3>Does a Player know the Black 4Bit Card(s) of the other Players?</h3>
+			No! Those cards are known only to their owner, who secretly tries to complete the corresponding 4Bit Sequence.
+			<h3>What happens if a Player completes a 2 4Bit sequence in one turn?</h3>
+			Each completed 4Bit Sequence gives a Bit Point to the Player who owns the corresponding Black 4Bit Card. So it is possible for a Player to score 2 Bit Points in one turn or to score for another Player.
+			<h3>Can a Player interact with rows and columns that have already been used to complete a 4Bit Card sequence?</h3>
+			Yes, any Player can interact with any played card.
+	
+		</p>
     </section>
     <!-- Add more sections as needed -->
 </body>
