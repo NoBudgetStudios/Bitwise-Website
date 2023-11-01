@@ -18,14 +18,25 @@
             <li><a href="rules.html"><i class="fas fa-book"></i> Rules</a></li>
             <li><a href="gallery.html"><i class="fas fa-camera"></i> Gallery</a></li>
             <li><a href="about.html"><i class="fas fa-info-circle"></i> About</a></li>
-            <li><a href="communication.html"><i class="fas fa-comments"></i> Communication</a></li>
+            <li><a href="contact.html"><i class="fas fa-comments"></i> Contact</a></li>
         </ul>
     </nav>
     <section id="howToWin">
         <h2>How to Win:</h2>
 		<p id="howToWin-description">
-			A player who completes a 4Bit sequence scores 1 Bit Point. A player who completes the 4Bit sequences, indicated by a Black 4Bit Card they own, scores 4 Bit Points. In any case, the White 4Bit Cards that have been completed are flipped face down.
-			A player wins by scoring 4 Bit Points.
+			The first Player who reaches 4 Bit Points wins! Bit Points are gained through the completion of 4Bit Cards sequences, as mentioned below.
+		</p>
+    </section>
+	<section id="scoring">
+        <h2>Scoring:</h2>
+		<p id="scoring-description">
+			When a Player completes a 4Bit Sequence:
+			<ol>
+				<li>scores 1 Bit Point, 
+				<li>then places the corresponding White 4Bit Card face down in front of them forming the Scoring Pile and
+				<li>replaces it with a new one from the White 4Bit Cards Deck. 
+			</ol>
+			The player who completes the 4Bit sequences, indicated by a Black 4Bit Card they own, scores 2 Bit Points instead and places both Black and White 4Bit Cards face down on the Scoring Pile. As the game progresses, the completed White 4Bit Cards of each player should form the Scoring Pile in front of them.
 		</p>
     </section>
     <section id="setup">
@@ -33,24 +44,28 @@
         <p id="setup-description">
             To set up the game, follow these steps:
             <ol>
-				<li>Every player takes a Tutorial Card face up in front of them. 
-				<li>Shuffle the White 4Bit Cards deck and place it face down on the upper left corner of the 5x5 Bit Grid.</li>
-				<li>Draw 8 cards and place them face up completing the first row and the first column of the grid.</li>
-				<li>Then search the 4Bit Cards from the Black 4Bit Deck that corresponds with the face up White 4Bit Cards and form a face down pile with them (Black 4Bit Deck will not be used again in the setup).</li>
-				<li>Afterward, shuffle the face-down pile and distribute one 4Bit Black Card to each player. This card serves as the target number for each player and can only be visible to its owner.</li>
-				<li>Finally, shuffle Bit cards, Gate cards and Special Cards together, forming the Deck. Deal 4 cards to each player clockwise from the Deck.</li>
-				<li>The player who has most recently viewed any type of turned on screen starts the game.</li>
+				<li>Shuffle the White 4Bit Cards deck and place it face up on the upper left corner of the 5x5 Bit Grid.</li>
+				<li>Draw the top 8 cards of the  White 4Bit Cards Deck and place them face up completing the first row and the first column of the grid.</li>
+				<li>Then search the 4Bit Cards from the Black 4Bit Deck that corresponds with the 8 face up White 4Bit Cards and form a face down pile with them (Black 4Bit Deck will not be used again in the setup).</li>
+				<li>Afterward, shuffle the face-down Black 4Bit pile and deal 2 4Bit Black Cards to each player. These cards are the target numbers for each player and can only be visible to their owners.</li>
+				<li>Finally, shuffle Bit cards, Gate cards and Special Cards together, forming the Main Deck.</li>
+				<li>Deal 4 cards to each player clockwise from the Main Deck.</li>
+				<li>The player who has most recently viewed any type of turned on screen plays first.</li>
             </ol>
+			At the start of the game the board should look like this:
+			<div class="gallery">
+                <img src="Images/Promo/BitwiseBoard.png" alt="Artwork">
+            </div>
         </p>
     </section>
     <section id="inATurn">
         <h2>In a Turn:</h2>
         <p id="inATurn-description">
-            A player, in their turn:
+            Each player, in their turn:
             <ol>
                 <li>Draws a card from the Deck.</li>
-                <li>Plays up to 1 card of each Type (Bit, Special, Gate) in any order, unless a played card states otherwise.</li>
-                <li>If a player does not play any card, they draw another card from the Deck.</li>
+                <li>Then they can play up to 1 card of each Type (Bit, Special, Gate) in any order, unless a played card states otherwise.</li>
+                <li>If a player does not play any card in their turn (pass), they draw another card from the Deck just before they end their turn.</li>
                 <li>Eitherway, right after that, they pass their turn to the next player on the left (clockwise).</li>
             </ol>
         </p>
@@ -74,18 +89,14 @@
 				<li><h3>Bit Cards:</h3>
 				The most basic cards in the game! With these cards a player can fill the empty Bit Slots in the Bit Grid in order to complete 4Bit Sequences.</li>
 
-				<li><h3>Tutorial Card:</h3>
-				Each player holds a Tutorial Card during the game. This card can be used as an aid in converting numbers from decimal to binary.</li>
-
 				<li><h3>Gate Card:</h3>
-				These cards represent transformations of Bit Cards! With these cards a player can combine Bit Cards 
-				(by discarding them) from the Bit Grid or their hand in order to play a new Bit Card from their hand in any slot of the Bit Grid.</li>
+				Gate cards represent small circuits that transform the played Bit Cards! With these cards a player can combine played Bit Cards (by discarding them) from the Bit Grid to play a new Bit Card from their hand in any empty Bit Slot of the Bit Grid. The valid transformations a Gate Card allows, are stated on the left side of it. These Cards are discarded after their use.</li>
 
 				<li><h3>Special Cards:</h3>
-				These cards have unique special abilities and can be a game changer! Playing one of these cards means that the player who played it must do exactly what the card text says.</li>
+				Special cards have unique abilities and can be a game changer! Playing one of these cards means that the player who played it must do exactly what the card text says and then discard it.</li>
 
 				<li><h3>4Bit Cards:</h3>
-				These cards are the target cards of the Bit Grid. Every player in the game tries to fill the gaps in the Bit Grid in order to complete one of the target cards 4Bit sequence correctly.</li>
+				These cards are the target cards of the Bit Grid. There are 2 types of 4Bit Cards, Black 4Bit Cards and White 4Bit Cards. White 4Bit Cards indicate the 4Bit Sequences that Players have to form in order to score Bit Points. Black 4Bit Cards are secretly dealt to each Player and indicate the secret target they have to complete, in order to score more Bit Points.</li>
 			</ul>
 		</p>
     </section>
