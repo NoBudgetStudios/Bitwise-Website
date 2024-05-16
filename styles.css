@@ -173,7 +173,7 @@ li {
 @media (min-width: 768px) {
     .gallery img {
     margin: 10px;
-    max-width: 20%;
+    max-width: 50%;
     height: auto;
     box-sizing: border-box;
     justify-content: center;
